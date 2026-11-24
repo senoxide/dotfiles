@@ -1,0 +1,22 @@
+input {
+    mod-key "Super"
+
+    keyboard {
+        xkb {
+            layout "us"
+        }
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+        accel-speed 0.16
+    }
+
+    focus-follows-mouse
+}
+
+cursor {
+    xcursor-theme "Bibata-Modern-Classic"
+    xcursor-size 16
+}

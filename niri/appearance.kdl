@@ -1,0 +1,22 @@
+prefer-no-csd
+
+layout {
+    focus-ring {
+        off
+    }
+
+    border {
+        on
+        width 2
+    }
+
+    shadow {
+        on
+    }
+}
+
+blur {
+    passes 3
+    noise 0.02
+    saturation 1.1
+}

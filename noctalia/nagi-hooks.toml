@@ -1,0 +1,11 @@
+[hooks]
+session_unlocked      = "~/.local/bin/nagi emit unlocked"
+wifi_enabled          = "~/.local/bin/nagi emit wifi-radio on"
+wifi_disabled         = "~/.local/bin/nagi emit wifi-radio off"
+bluetooth_enabled     = "~/.local/bin/nagi emit bluetooth on"
+bluetooth_disabled    = "~/.local/bin/nagi emit bluetooth off"
+power_profile_changed = "~/.local/bin/nagi emit power-profile \"$NOCTALIA_POWER_PROFILE\""
+battery_charging           = "~/.local/bin/nagi emit charger connected"
+battery_plugged            = "~/.local/bin/nagi emit charger connected"
+battery_discharging        = "~/.local/bin/nagi emit charger disconnected"
+battery_percentage_changed = "~/.config/noctalia/hooks/nagi-battery.sh"

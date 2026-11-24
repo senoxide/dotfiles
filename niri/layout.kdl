@@ -1,0 +1,7 @@
+layout {
+    gaps 6
+
+    default-column-width {
+        proportion 0.5
+    }
+}

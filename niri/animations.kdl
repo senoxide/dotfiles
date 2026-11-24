@@ -1,0 +1,16 @@
+animations {
+    window-open {
+        duration-ms 120
+        curve "ease-out-cubic"
+    }
+
+    window-close {
+        duration-ms 100
+        curve "ease-out-cubic"
+    }
+
+    workspace-switch {
+        duration-ms 120
+        curve "ease-out-cubic"
+    }
+}
